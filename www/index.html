@@ -1,0 +1,183 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Principal</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">     
+         
+        
+        <link rel="stylesheet" href="js/jquerymobile/1.4.5/jquery.mobile-1.4.5.css">
+
+        <link rel="stylesheet" href="js/jquery-ui-1.11.4/jquery-ui.min.css">
+        
+       	<link rel="stylesheet" href="vendor/waves/waves.min.css" />
+        <link rel="stylesheet" href="css/animate.css" />
+		<link rel="stylesheet" href="vendor/wow/animate.css" />
+		<link rel="stylesheet" href="css/nativedroid2.css" />
+        
+
+		<meta name="mobile-web-app-capable" content="yes">
+	 	<meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+        
+        
+        <script src="js/jquery.min.js"></script>
+        <script src="js/jquerymobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+        <script src="js/jquery-ui-1.11.4/jquery-ui.min.js"></script>
+
+	</head>
+	<body>
+
+		<div data-role="page">
+
+			<nd2-include data-src="examples/panel.left.html"></nd2-include>
+
+			<div data-role="panel" id="bottomsheet" data-animate="false" data-position='bottom' data-display="overlay">
+				<nd2-include data-src="examples/bottom.sheet.html"></nd2-include>
+			</div>
+
+			<div data-role="header" data-position="fixed" class="wow fadeInDown" data-wow-delay="0.2s">
+				<a href="#bottomsheet" class="ui-btn ui-btn-right wow fadeIn" data-wow-delay='1.2s'><i class="zmdi zmdi-more-vert"></i></a>
+				<a href="#leftpanel" class="ui-btn ui-btn-left wow fadeIn" data-wow-delay='0.8s'><i class="zmdi zmdi-menu"></i></a>
+				<h1 class="wow fadeIn" data-wow-delay='0.4s'>Barbería Bogotá</h1>
+			</div>
+
+			<div role="main" class="ui-content" data-inset="false">
+                
+				<!--area de trabajo-->
+                <div style="text-align:center;">
+	               <table border="0" style="margin: 0 auto;">
+                    <tr>
+                        <td colspan="4">
+                            <figure class="figure-align">
+                            <img class="imagen_principal_area_trabajo animated jello " src="img/principal.png">
+                            </figure>                            
+                            <hr class="ornamental2 ">
+                            <h3 class="enjoy-css animated infinite pulse">Un Lugar Para Hombres Con Estilo !!</h3>
+                            <hr class="ornamental">
+                            <script type="text/javascript" script-name="aguafina-script" src="http://use.edgefonts.net/aguafina-script.js"></script>
+                            
+                        </td>
+                        </tr>
+                        <!--<tr>
+                        <td>
+                        <a href="#popupLogin" data-rel="popup" data-position-to="window" class="ui-btn ui-corner-all ui-shadow ui-btn-inline ui-icon-check ui-btn-icon-left ui-btn-a" data-transition="pop">Sign in</a>
+<div data-role="popup" id="popupLogin" data-theme="a" class="ui-corner-all">
+    <form>
+        <div style="padding:10px 20px;">
+            <h3>Please sign in</h3>
+            <label for="un" class="ui-hidden-accessible">Username:</label>
+            <input type="text" name="user" id="un" value="" placeholder="username" data-theme="a">
+            <label for="pw" class="ui-hidden-accessible">Password:</label>
+            <input type="password" name="pass" id="pw" value="" placeholder="password" data-theme="a">
+            <button type="submit" class="ui-btn ui-corner-all ui-shadow ui-btn-b ui-btn-icon-left ui-icon-check">Sign in</button>
+        </div>
+    </form>
+</div>
+                        </td>
+                            
+                     </tr>-->
+                    <tr class="ornamental">
+                        <td>
+                            <a href="#popupLocation" data-rel="popup">
+                            <img class="imagen_button_area_trabajo animated infinite wobble" src="img/Location-Icon.png" name="location_button" dsid="location_button">
+                            </a>
+                            <div data-role="popup" id="popupLocation">
+                            <div data-role="header">
+		<h1 class='nd-title'>Encuentranos en el Barrio Chicala</h1>
+	</div>
+
+	<div data-role="content">
+        <p><img class="imagen_principal_area_trabajo" src="img/likansoft_logo.png"></p>
+	    <p>Carrera 87 B N° 51B-59</p>
+        <p>(Bosa)-bogota Colombia.</p>
+        <p>  Frente al parque de Betania</p>
+        <p>  segundo piso.</p>
+	    <a href="index.html" data-rel="back" data-role="button" data-inline="true" class="ui-btn ui-btn-primary"><i class='zmdi zmdi-cancel'></i> Cerrar</a>
+	</div>
+	                           
+                            </div>
+                        </td>                        
+                        <td>
+                            <a href="#popupWasap" data-rel="popup">
+                            <img class="imagen_button_area_trabajo" src="img/whatsappg.png">
+                            </a>
+                            <div data-role="popup" id="popupWasap">
+                                <div data-role="header">
+                                    <h1 class='nd-title'>Contactanos</h1>
+                                </div>
+                                <div data-role="content">     <p>3165682920</p>
+                                <p>3214916448</p>
+	    <a href="index.html" data-rel="back" data-role="button" data-inline="true" class="ui-btn ui-btn-primary"><i class='zmdi zmdi-cancel'></i> Cerrar</a>
+                                </div>
+                                
+                            </div>
+                        </td>
+                        <td>
+                            <a href="#popupSnapchat" data-rel="popup">
+                            <img class="imagen_button_area_trabajo" src="img/snapchat.png">
+                             </a>
+                            <div data-role="popup" id="popupSnapchat">
+                                
+                                <div data-role="header">
+                                    <h1 class='nd-title'>Snapchat</h1>
+                                </div>
+                                <div data-role="content">     <p>barberiabogota</p>
+	    <a href="dialog/index.html" data-rel="back" data-role="button" data-inline="true" class="ui-btn ui-btn-primary"><i class='zmdi zmdi-cancel'></i> Cerrar</a>
+                                </div>
+                                
+                            </div>
+                        </td>                        
+                        <td>
+                            <a href="productos.html" data-ajax='true' data-icon="false" data-transition="slidedown">
+                            <img class="imagen_button_area_trabajo" src="img/shoppingcart.png">
+                             </a>                            
+                        </td>
+                       </tr>
+                        <tr>
+                       <td colspan="4">
+                           <a href="#popupHorario" data-rel="popup">
+                           <div class="demo-wrapper">   
+                            <section class="with-step">        
+                                <div class="circle">
+                                    <div class="hour"></div>
+                                    <div class="minute"></div>
+                                    <div class="second"></div>
+                                </div>
+                            </section>
+                            </div>
+                           </a>
+                           <div data-role="popup" id="popupHorario">
+                               
+                               <div data-role="header">
+                                    <h1 class='nd-title'>Horario</h1>
+                                </div>
+                                <div data-role="content">     <p>Lunes A Domingo</p>
+                                <p>10:00am A 8:00pm</p>
+	    <a href="dialog/index.html" data-rel="back" data-role="button" data-inline="true" class="ui-btn ui-btn-primary"><i class='zmdi zmdi-cancel'></i> Cerrar</a>
+                                </div> 
+                               
+                            </div>
+                        </td>
+                       </tr>
+                    </table>
+                </div>
+                
+                <!--fin area de trabajo-->
+                
+                
+			</div>
+
+		</div>        
+		<script src="vendor/waves/waves.min.js"></script>
+		<script src="vendor/wow/wow.min.js"></script>
+		<script src="js/nativedroid2.js"></script>
+		<script src="nd2settings.js"></script>
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+        <script type="text/javascript">
+            app.initialize();
+        </script>
+
+	</body>
+</html>
